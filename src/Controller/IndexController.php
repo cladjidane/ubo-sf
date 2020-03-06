@@ -7,7 +7,10 @@ use Symfony\Component\HttpFoundation\Response;
 
 class IndexController extends AbstractController {
     public function index() {
-        $args = array("content" => "<div style=\"color: red; background: black; padding: 20px;\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente reiciendis voluptatibus quis, ea vel architecto culpa fugit libero quaerat soluta quam unde maxime blanditiis voluptatum commodi dolor? Atque, id minus.</div>");
+        $args = array(
+            "content" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente reiciendis voluptatibus quis, ea vel architecto culpa fugit libero quaerat soluta quam unde maxime blanditiis voluptatum commodi dolor? Atque, id minus.",
+            "test" => "1234567890"
+        );
         return $this->render('index.html.twig', $args);
     }
 
