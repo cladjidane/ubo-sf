@@ -13,6 +13,6 @@ Vous pouvez simplement télécharger le zip du dépôt ou si vous êtes à l'ais
 ## Lancer le projet sur un navigateur
 
 Ouvrez une console (terminal) et rendez-vous dans le répertoire du projet. 
-Lancez le server web intégrer à Symfony 
+Lancez le server web intégré à Symfony 
 
 ``` symfony serve ```
