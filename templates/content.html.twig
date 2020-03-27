@@ -2,8 +2,10 @@
 
 {% block body %}
 
-<p style="color: red">READY</p>
+<h1 style="color: red">{{ title }}</h1>
 
-{{ content|raw }}
+{% if display_desc is defined %}
+   {{ content }}
+{% endif %}
 
 {% endblock %}
